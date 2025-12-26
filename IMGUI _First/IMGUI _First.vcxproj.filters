@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{a80ac3e2-8a20-4b32-9378-c8335a871fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\imgui">
+      <UniqueIdentifier>{3a48fa37-3ac0-416b-b2f5-afa08d1990ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns">
+      <UniqueIdentifier>{9daebc90-b1fb-471c-9b97-fdd95bb4e2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{a1b2d121-7d97-4ff4-8536-e685cbedbd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\cJSON">
+      <UniqueIdentifier>{6a517752-fda0-4110-bbf2-521e5036fdef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\0.快速开发模板">
+      <UniqueIdentifier>{b2cdb01b-092b-4e12-9879-87f7bcaa116f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\2.进程调度">
+      <UniqueIdentifier>{c546fda4-e45a-4bed-a174-3baa186eef9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\3.实时调度">
+      <UniqueIdentifier>{85697092-0766-4aea-af88-638499af7dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\4.状态切换">
+      <UniqueIdentifier>{3d9cd9d5-468d-4c4c-ac4f-2cc2c09582e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\5.互斥">
+      <UniqueIdentifier>{61df3763-80ff-48b5-8f8e-3db81aad8943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\6.同步">
+      <UniqueIdentifier>{ae107e7a-ec36-42eb-be4d-9d60b681731d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\7.进程通信">
+      <UniqueIdentifier>{35e3330e-50ec-4da7-a018-26ea1f069228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\8.死锁处理">
+      <UniqueIdentifier>{c8a430e2-2cc7-4990-8e0d-894f3857fa73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\8.死锁处理\8.1死锁预防">
+      <UniqueIdentifier>{6bb99f71-df39-4a64-8042-7a9f584be8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\8.死锁处理\8.2死锁避免">
+      <UniqueIdentifier>{0495d425-a60e-47ef-9871-5d78ccd52cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\8.死锁处理\8.3死锁的检测和避免">
+      <UniqueIdentifier>{cb265393-ba8a-40ab-9221-0d6384e74a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\9.内存分配">
+      <UniqueIdentifier>{812dea2e-65ba-40ac-baa6-d0f17bc75be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\11.线程机制">
+      <UniqueIdentifier>{02886050-9298-4da7-8eb3-e81501964910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\9.内存分配\9.1换进换出">
+      <UniqueIdentifier>{335da645-fbfb-4dac-a3fe-5f011ffeef4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\9.内存分配\9.2内存分配">
+      <UniqueIdentifier>{d2ad0267-d3ae-4eb8-aa6a-2b74b6556091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns\1.长夜月摇">
+      <UniqueIdentifier>{c8063b92-679c-4e42-9fa8-c870d1f6b6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns\2.蕾塞舞">
+      <UniqueIdentifier>{c9551334-ca5e-4736-9392-c8dcfffd8cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="patterns\3.DoodleDance">
+      <UniqueIdentifier>{3b1384d1-b895-427d-b7c5-9eff34fe3539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS\10.外存访问">
+      <UniqueIdentifier>{10e579a8-e029-4f66-a2f2-f5f33f83eb49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="doodle.cpp">
+      <Filter>patterns\3.DoodleDance</Filter>
+    </ClCompile>
+    <ClCompile Include="cyy.cpp">
+      <Filter>patterns\1.长夜月摇</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\json与csv的读入\thirdparty\cJSON\cJSON.c">
+      <Filter>framework\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="0.quick_template.cpp">
+      <Filter>OS\0.快速开发模板</Filter>
+    </ClCompile>
+    <ClCompile Include="2.process_schedule.cpp">
+      <Filter>OS\2.进程调度</Filter>
+    </ClCompile>
+    <ClCompile Include="3.realtime_schedule.cpp">
+      <Filter>OS\3.实时调度</Filter>
+    </ClCompile>
+    <ClCompile Include="4.state_exchange.cpp">
+      <Filter>OS\4.状态切换</Filter>
+    </ClCompile>
+    <ClCompile Include="5.mutual_exclusion.cpp">
+      <Filter>OS\5.互斥</Filter>
+    </ClCompile>
+    <ClCompile Include="6.synchronization.cpp">
+      <Filter>OS\6.同步</Filter>
+    </ClCompile>
+    <ClCompile Include="7.process_communication.cpp">
+      <Filter>OS\7.进程通信</Filter>
+    </ClCompile>
+    <ClCompile Include="8.1deadlock_prevention.cpp">
+      <Filter>OS\8.死锁处理\8.1死锁预防</Filter>
+    </ClCompile>
+    <ClCompile Include="8.2deadlock_avoid.cpp">
+      <Filter>OS\8.死锁处理\8.2死锁避免</Filter>
+    </ClCompile>
+    <ClCompile Include="8.deadlock.cpp">
+      <Filter>OS\8.死锁处理</Filter>
+    </ClCompile>
+    <ClCompile Include="8.3deadlock_check_and_release.cpp">
+      <Filter>OS\8.死锁处理\8.3死锁的检测和避免</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_impl_sdl.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_impl_sdlrenderer.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_stdlib.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_tables.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\TextEditor.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="example_manager.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="11.thread_mechanism.cpp">
+      <Filter>OS\11.线程机制</Filter>
+    </ClCompile>
+    <ClCompile Include="leisai.cpp">
+      <Filter>patterns\2.蕾塞舞</Filter>
+    </ClCompile>
+    <ClCompile Include="9.in_and_out.cpp">
+      <Filter>OS\9.内存分配\9.1换进换出</Filter>
+    </ClCompile>
+    <ClCompile Include="9.memory_allocate.cpp">
+      <Filter>OS\9.内存分配\9.2内存分配</Filter>
+    </ClCompile>
+    <ClCompile Include="10.es_visit.cpp">
+      <Filter>OS\10.外存访问</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="doodle.h">
+      <Filter>patterns\3.DoodleDance</Filter>
+    </ClInclude>
+    <ClInclude Include="cyy.h">
+      <Filter>patterns\1.长夜月摇</Filter>
+    </ClInclude>
+    <ClInclude Include="process_state.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="process_resource.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="0.quick_template.h">
+      <Filter>OS\0.快速开发模板</Filter>
+    </ClInclude>
+    <ClInclude Include="2.process_schedule.h">
+      <Filter>OS\2.进程调度</Filter>
+    </ClInclude>
+    <ClInclude Include="3.realtime_schedule.h">
+      <Filter>OS\3.实时调度</Filter>
+    </ClInclude>
+    <ClInclude Include="4.state_exchange.h">
+      <Filter>OS\4.状态切换</Filter>
+    </ClInclude>
+    <ClInclude Include="5.mutual_exclusion.h">
+      <Filter>OS\5.互斥</Filter>
+    </ClInclude>
+    <ClInclude Include="6.synchronization.h">
+      <Filter>OS\6.同步</Filter>
+    </ClInclude>
+    <ClInclude Include="7.process_communication.h">
+      <Filter>OS\7.进程通信</Filter>
+    </ClInclude>
+    <ClInclude Include="8.1deadlock_prevention.h">
+      <Filter>OS\8.死锁处理\8.1死锁预防</Filter>
+    </ClInclude>
+    <ClInclude Include="8.2deadlock_avoid.h">
+      <Filter>OS\8.死锁处理\8.2死锁避免</Filter>
+    </ClInclude>
+    <ClInclude Include="8.deadlock.h">
+      <Filter>OS\8.死锁处理</Filter>
+    </ClInclude>
+    <ClInclude Include="8.3deadlock_check_and_release.h">
+      <Filter>OS\8.死锁处理\8.3死锁的检测和避免</Filter>
+    </ClInclude>
+    <ClInclude Include="process_control_block.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="config_manager.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="text_string.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="almighty_head.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="example.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="example_manager.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="font_wrapper.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="11.thread_mechanism.h">
+      <Filter>OS\11.线程机制</Filter>
+    </ClInclude>
+    <ClInclude Include="leisai.h">
+      <Filter>patterns\2.蕾塞舞</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_control_block.h">
+      <Filter>OS\11.线程机制</Filter>
+    </ClInclude>
+    <ClInclude Include="9.in_and_out.h">
+      <Filter>OS\9.内存分配\9.1换进换出</Filter>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <Filter>OS\9.内存分配\9.1换进换出</Filter>
+    </ClInclude>
+    <ClInclude Include="9.memory_allocate.h">
+      <Filter>OS\9.内存分配\9.2内存分配</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_block.h">
+      <Filter>OS\9.内存分配\9.2内存分配</Filter>
+    </ClInclude>
+    <ClInclude Include="10.es_visit.h">
+      <Filter>OS\10.外存访问</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IMGUI _First.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\doge.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\ico_orange.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
