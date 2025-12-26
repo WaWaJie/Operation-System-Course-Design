@@ -173,7 +173,7 @@
     <ClCompile Include="..\thirdparty\imgui\TextEditor.cpp">
       <Filter>framework\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\thirdparty\cJSON\cJSON.c">
+    <ClCompile Include="..\..\..\123\master\Operation-System-Course-Design-master\thirdparty\cJSON\cJSON.c">
       <Filter>framework\cJSON</Filter>
     </ClCompile>
   </ItemGroup>
