@@ -92,9 +92,6 @@
     <ClCompile Include="cyy.cpp">
       <Filter>patterns\1.长夜月摇</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\json与csv的读入\thirdparty\cJSON\cJSON.c">
-      <Filter>framework\cJSON</Filter>
-    </ClCompile>
     <ClCompile Include="0.quick_template.cpp">
       <Filter>OS\0.快速开发模板</Filter>
     </ClCompile>
@@ -128,30 +125,6 @@
     <ClCompile Include="8.3deadlock_check_and_release.cpp">
       <Filter>OS\8.死锁处理\8.3死锁的检测和避免</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_draw.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_impl_sdl.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_impl_sdlrenderer.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_stdlib.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_tables.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_widgets.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\TextEditor.cpp">
-      <Filter>framework\imgui</Filter>
-    </ClCompile>
     <ClCompile Include="application.cpp">
       <Filter>framework</Filter>
     </ClCompile>
@@ -175,6 +148,33 @@
     </ClCompile>
     <ClCompile Include="10.es_visit.cpp">
       <Filter>OS\10.外存访问</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_sdl.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_sdlrenderer.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_stdlib.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_tables.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\imgui\TextEditor.cpp">
+      <Filter>framework\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\cJSON\cJSON.c">
+      <Filter>framework\cJSON</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

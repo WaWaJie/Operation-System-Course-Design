@@ -131,15 +131,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_draw.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_impl_sdl.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_impl_sdlrenderer.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_stdlib.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_tables.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\imgui_widgets.cpp" />
-    <ClCompile Include="..\..\..\《通关设计模式：游戏开发架构宝典》课程案例项目\DesignPattern\thirdparty\imgui\TextEditor.cpp" />
-    <ClCompile Include="..\..\json与csv的读入\thirdparty\cJSON\cJSON.c" />
+    <ClCompile Include="..\thirdparty\cJSON\cJSON.c" />
+    <ClCompile Include="..\thirdparty\imgui\imgui.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_sdl.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\imgui_impl_sdlrenderer.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\imgui_stdlib.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\thirdparty\imgui\TextEditor.cpp" />
     <ClCompile Include="0.quick_template.cpp" />
     <ClCompile Include="10.es_visit.cpp" />
     <ClCompile Include="9.in_and_out.cpp" />
