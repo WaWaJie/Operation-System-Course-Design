@@ -25,6 +25,7 @@ private:
 
 
 private:
+
 	float sum_time = 0;			//程序自运行开始的总时间
 	int process_idx = 1;		//进程索引
 	bool can_execute = false;	//是否可以执行

@@ -25,6 +25,7 @@ struct TCB {
     float wait_time;            // 等待时间
     float turnaround_time;      // 周转时间
 
+
     TCB(int id, std::string name, std::shared_ptr<PCB> parent)
         : tid(id), tname(name), state(ThreadState::Ready),
         time_needed(1.5f + static_cast<float>(rand() % 100) / 100.0f), // 1.5-2.5秒

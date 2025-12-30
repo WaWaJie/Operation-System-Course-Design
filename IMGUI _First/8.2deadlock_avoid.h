@@ -25,6 +25,7 @@ private:
     void update_process_allocation(int process_index);
     void update_process_max_demand(int process_index);
 
+
     // UI辅助函数
     void render_resource_matrices();
     void render_process_allocation_window();
