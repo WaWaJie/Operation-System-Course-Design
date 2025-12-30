@@ -63,11 +63,12 @@
 #*.RTF   diff=astextplain
 
 # 强制所有文本文件用UTF-8编码
-* text=auto encoding=utf-8
+#* text=auto encoding=utf-8
+
 # 明确指定代码文件的编码
 *.cpp text encoding=utf-8
 *.h text encoding=utf-8
-*.c text encoding=utf-8
+#*.c text encoding=utf-8
 # 二进制文件（如图片）不做编码转换
 *.png binary
 *.jpg binary

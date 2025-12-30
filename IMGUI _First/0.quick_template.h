@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include"almighty_head.h"
 
@@ -34,6 +34,5 @@ private:
 	std::vector<std::shared_ptr<PCB>>pcb_queue_normal;	//进程控制块队列
 
 	std::string str_tip = "";	//运行提示信息
-
 
 };

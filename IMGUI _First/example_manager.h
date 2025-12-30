@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include"example.h"
 #include"singleton.h"
