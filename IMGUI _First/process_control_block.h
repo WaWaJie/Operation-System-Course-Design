@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include"timer.h"
 #include"process_state.h"
@@ -22,7 +22,7 @@ struct PCB
 {
     bool can_execute = false;
 
-    std::string pname;      //进程名称
+    std::string pname;     //进程名称
     std::string state_name; //进程状态名称
 
     ProcessState current_state = ProcessState::StaticBlock;
