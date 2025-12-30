@@ -1,4 +1,4 @@
-// 10.es_visit.h (更新)
+﻿// 10.es_visit.h (更新)
 #pragma once
 
 #include"almighty_head.h"

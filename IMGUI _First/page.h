@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 // 页面结构
 struct Page {
     int page_id;        // 页面号
