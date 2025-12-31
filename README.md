@@ -1,5 +1,6 @@
 # 操作系统课程设计 - 算法模拟实现
 本项目是《操作系统》课程设计的实践成果，核心目标是对教材中经典的操作系统核心算法进行可视化模拟，直观展现算法执行逻辑与效果。
+视频演示：https://www.bilibili.com/video/BV1aNiTBfEev/?spm_id_from=333.1387.homepage.video_card.click&vd_source=4084fc4444878e6b58c10043580d8a61
 <img width="852" height="526" alt="OS课设要求" src="https://github.com/user-attachments/assets/1547ba9b-76a9-4244-aba9-8fc7f1b8224a" />
 
 ## 🛠️ 调试运行说明
