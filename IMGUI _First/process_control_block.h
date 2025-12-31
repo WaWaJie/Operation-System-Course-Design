@@ -66,22 +66,22 @@ struct PCB
         switch (state)
         {
         case ProcessState::ActiveBlock:
-            state_name = "活动阻塞";
+            state_name = u8"活动阻塞";
             break;
         case ProcessState::ActiveReady:
-            state_name = "活动就绪";
+            state_name = u8"活动就绪";
             break;
         case ProcessState::Execute:
-            state_name = "执行";
+            state_name = u8"执行";
             break;
         case ProcessState::Finish:
-            state_name = "终止";
+            state_name = u8"终止";
             break;
         case ProcessState::StaticBlock:
-            state_name = "静止阻塞";
+            state_name = u8"静止阻塞";
             break;
         case ProcessState::StaticReady:
-            state_name = "静止就绪";
+            state_name = u8"静止就绪";
             break;
         }
     }
