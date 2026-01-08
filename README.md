@@ -26,7 +26,7 @@
 - 协助完成实验报告的撰写与梳理；
 - 解决了开发过程中遇到的诸多问题与麻烦，让本项目能够顺利运行。
 
-## ⭐历史Star
+## 🌟 历史Star
 
 [![Stargazers over time](https://starchart.cc/WaWaJie/Operation-System-Course-Design.svg?variant=adaptive)](https://starchart.cc/WaWaJie/Operation-System-Course-Design)
 
