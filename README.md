@@ -26,15 +26,15 @@
 - 协助完成实验报告的撰写与梳理；
 - 解决了开发过程中遇到的诸多问题与麻烦，让本项目能够顺利运行。
 
-## 🌟 历史Star
-
-[![Stargazers over time](https://starchart.cc/WaWaJie/Operation-System-Course-Design.svg?variant=adaptive)](https://starchart.cc/WaWaJie/Operation-System-Course-Design)
-
-✨ 功能更新 | 2026.01.10
+## ✨ 功能更新 | 2026.01.10
 为拓展算法模拟的交互性与灵活性，本次更新引入解释器模式并集成 Lua 脚本运行能力，可以用来进行Lua的学习：
 在对应功能模块中，支持自定义编写 Lua 代码并即时运行，可直观获取脚本执行结果；
 绘图能力适配基础图形渲染：支持通过 Lua 脚本绘制填充式矩形、三角形、圆形，满足算法可视化的基础绘图需求。
 <img width="1127" height="940" alt="image" src="https://github.com/user-attachments/assets/1abebb4a-107a-47f0-8645-c0a6ffbddf6d" />
 <img width="1127" height="940" alt="image" src="https://github.com/user-attachments/assets/0841e7d2-77ab-40c5-b5d2-1b4693115de6" />
+
+## 🌟 历史Star
+
+[![Stargazers over time](https://starchart.cc/WaWaJie/Operation-System-Course-Design.svg?variant=adaptive)](https://starchart.cc/WaWaJie/Operation-System-Course-Design)
 
 
