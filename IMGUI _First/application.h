@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include <SDL.h>
 #include <SDL_image.h>
@@ -31,6 +31,6 @@ private:
 	bool is_quit = false;
 
 	Timer timer_update_title;
-	float fps_realtime = 60.0f;
+	float fps_realtime = 1.0/60.0f;
 };
 		
