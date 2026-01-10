@@ -71,7 +71,7 @@ InterpreterPattern::InterpreterPattern(SDL_Renderer* renderer)
 	texture_target = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, 350, 350);
 
 	ImGuiIO& ioImGui = ImGui::GetIO();
-	font_code = ImGui::GetIO().Fonts->AddFontFromFileTTF("resources\SarasaMonoSC-Regular.ttf", 18.0f, nullptr, ioImGui.Fonts->GetGlyphRangesChineseSimplifiedCommon());
+	font_code = ImGui::GetIO().Fonts->AddFontFromFileTTF(R"(resources\SarasaMonoSC-Regular.ttf)", 18.0f, nullptr, ioImGui.Fonts->GetGlyphRangesChineseSimplifiedCommon());
 
 	TextEditor::LanguageDefinition lang_def = TextEditor::LanguageDefinition::Lua();
 	{
