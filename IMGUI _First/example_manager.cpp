@@ -21,6 +21,7 @@
 #include"9.in_and_out.h"
 #include"10.es_visit.h"
 #include"11.thread_mechanism.h"
+#include"interpreter.h"
 
 #include <imgui.h>
 
@@ -83,10 +84,9 @@ void ExampleManager::on_init(SDL_Renderer* renderer)
 	add_example(subject_structural, MenuItem("2example11", texture_icon_structural, u8"11. 线程机制"), new ThreadMechanism());
 	add_example(subject_structural, MenuItem("2example12", texture_icon_structural, u8"0. 快速开发模板"), new QuickTemplate());
 	
-	//subject_behavioral.title = u8"三、完整演示";
-	//SDL_Texture* texture_icon_behavioral = ResourcesManager::instance()->find_texture("icon-behavioral");	
-	//add_example(subject_behavioral, MenuItem("3example1", texture_icon_behavioral, u8"1. 行为1"), new EEE1());
-	//add_example(subject_behavioral, MenuItem("3example2", texture_icon_behavioral, u8"2. 行为2"), new Example());
+	subject_behavioral.title = u8"三、完整演示";
+	SDL_Texture* texture_icon_behavioral = ResourcesManager::instance()->find_texture("icon-behavioral");	
+	add_example(subject_behavioral, MenuItem("3example1", texture_icon_behavioral, u8"解释器模式"), new InterpreterPattern(renderer));
 }
 
 void ExampleManager::on_update_blank_content()

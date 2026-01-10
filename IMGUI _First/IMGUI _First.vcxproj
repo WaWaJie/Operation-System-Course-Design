@@ -102,14 +102,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\thirdparty\imgui\include;..\thirdparty\SDL2\include;..\thirdparty\SDL2_gfx\include;..\thirdparty\SDL2_image\include;..\thirdparty\SDL2_mixer\include;..\thirdparty\SDL2_ttf\include;..\thirdparty\cJSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\thirdparty\imgui\include;..\thirdparty\SDL2\include;..\thirdparty\SDL2_gfx\include;..\thirdparty\SDL2_image\include;..\thirdparty\SDL2_mixer\include;..\thirdparty\SDL2_ttf\include;..\thirdparty\cJSON\include;..\thirdparty\lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\thirdparty\SDL2\lib\x64;..\thirdparty\SDL2_mixer\lib\x64;..\thirdparty\SDL2_image\lib\x64;..\thirdparty\SDL2_ttf\lib\x64;..\thirdparty\SDL2_gfx\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2_image.lib;SDL2_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\thirdparty\SDL2\lib\x64;..\thirdparty\SDL2_mixer\lib\x64;..\thirdparty\SDL2_image\lib\x64;..\thirdparty\SDL2_ttf\lib\x64;..\thirdparty\SDL2_gfx\lib\x64;..\thirdparty\lua\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2_image.lib;SDL2_gfx.lib;lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -120,14 +120,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\thirdparty\imgui\include;..\thirdparty\SDL2\include;..\thirdparty\SDL2_gfx\include;..\thirdparty\SDL2_image\include;..\thirdparty\SDL2_mixer\include;..\thirdparty\SDL2_ttf\include;..\thirdparty\cJSON\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\thirdparty\imgui\include;..\thirdparty\SDL2\include;..\thirdparty\SDL2_gfx\include;..\thirdparty\SDL2_image\include;..\thirdparty\SDL2_mixer\include;..\thirdparty\SDL2_ttf\include;..\thirdparty\cJSON\include;..\thirdparty\lua\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\thirdparty\SDL2\lib\x64;..\thirdparty\SDL2_mixer\lib\x64;..\thirdparty\SDL2_image\lib\x64;..\thirdparty\SDL2_ttf\lib\x64;..\thirdparty\SDL2_gfx\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2_image.lib;SDL2_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\thirdparty\SDL2\lib\x64;..\thirdparty\SDL2_mixer\lib\x64;..\thirdparty\SDL2_image\lib\x64;..\thirdparty\SDL2_ttf\lib\x64;..\thirdparty\SDL2_gfx\lib\x64;..\thirdparty\lua\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2_image.lib;SDL2_gfx.lib;lua.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -155,6 +155,7 @@
     <ClCompile Include="8.deadlock.cpp" />
     <ClCompile Include="9.memory_allocate.cpp" />
     <ClCompile Include="application.cpp" />
+    <ClCompile Include="interpreter.cpp" />
     <ClCompile Include="leisai.cpp" />
     <ClCompile Include="doodle.cpp" />
     <ClCompile Include="example_manager.cpp" />
@@ -183,6 +184,7 @@
     <ClInclude Include="application.h" />
     <ClInclude Include="config_manager.h" />
     <ClInclude Include="cyy.h" />
+    <ClInclude Include="interpreter.h" />
     <ClInclude Include="leisai.h" />
     <ClInclude Include="doodle.h" />
     <ClInclude Include="example.h" />

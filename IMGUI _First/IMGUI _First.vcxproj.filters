@@ -81,6 +81,9 @@
     <Filter Include="OS\10.外存访问">
       <UniqueIdentifier>{10e579a8-e029-4f66-a2f2-f5f33f83eb49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{7069c288-2f44-4c82-bfc9-abb6bc86fdea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -175,6 +178,9 @@
     </ClCompile>
     <ClCompile Include="..\thirdparty\cJSON\cJSON.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="interpreter.cpp">
+      <Filter>Pattern</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -286,6 +292,9 @@
     </ClInclude>
     <ClInclude Include="10.es_visit.h">
       <Filter>OS\10.外存访问</Filter>
+    </ClInclude>
+    <ClInclude Include="interpreter.h">
+      <Filter>Pattern</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
