@@ -84,7 +84,7 @@ void ExampleManager::on_init(SDL_Renderer* renderer)
 	add_example(subject_structural, MenuItem("2example11", texture_icon_structural, u8"11. 线程机制"), new ThreadMechanism());
 	add_example(subject_structural, MenuItem("2example12", texture_icon_structural, u8"0. 快速开发模板"), new QuickTemplate());
 	
-	subject_behavioral.title = u8"三、完整演示";
+	subject_behavioral.title = u8"三、设计模式";
 	SDL_Texture* texture_icon_behavioral = ResourcesManager::instance()->find_texture("icon-behavioral");	
 	add_example(subject_behavioral, MenuItem("3example1", texture_icon_behavioral, u8"解释器模式"), new InterpreterPattern(renderer));
 }
