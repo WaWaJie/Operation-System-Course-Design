@@ -17,6 +17,17 @@
 ## ⚠️ 已知问题
 项目中「内存分配」模块的可视化展示环节存在少量未修复的小 Bug，因时间与精力原因暂未优化（不影响核心算法逻辑的验证与理解）。
 
+## 🔗 三方依赖
+
+| 依赖                | 主页                                                                                   |
+|:--------------------|:---------------------------------------------------------------------------------------|
+| cJSON       | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON)                     |
+| cpp-base64  | [https://github.com/ReneNyffenegger/cpp-base64](https://github.com/ReneNyffenegger/cpp-base64) |
+| imgui       | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)                           |
+| Lua         | [https://www.lua.org/](https://www.lua.org/)                                                   |
+| SDL         | [https://github.com/libsdl-org/SDL](https://github.com/libsdl-org/SDL)                         |
+
+
 ## 📝 学习资源
 本人（WaWaJie）会将学习过程中的笔记整理发布在 CSDN 博客，目前已更新 OpenGL、设计模式等基础内容，感兴趣的同学可参考：
 👉 [CSDN 博客专栏](https://blog.csdn.net/2301_79921853?type=blogColumn)
