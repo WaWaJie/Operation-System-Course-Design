@@ -22,7 +22,6 @@
 | 依赖                | 主页                                                                                   |
 |:--------------------|:---------------------------------------------------------------------------------------|
 | cJSON       | [https://github.com/DaveGamble/cJSON](https://github.com/DaveGamble/cJSON)                     |
-| cpp-base64  | [https://github.com/ReneNyffenegger/cpp-base64](https://github.com/ReneNyffenegger/cpp-base64) |
 | imgui       | [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)                           |
 | Lua         | [https://www.lua.org/](https://www.lua.org/)                                                   |
 | SDL         | [https://github.com/libsdl-org/SDL](https://github.com/libsdl-org/SDL)                         |
