@@ -29,7 +29,7 @@
 
 ## 📝 学习资源
 本人（WaWaJie）会将学习过程中的笔记整理发布在 CSDN 博客，目前已更新 OpenGL、设计模式等基础内容，也会将代码的大致解释写到里面，感兴趣的同学可参考：
-👉 [CSDN 博客专栏]([https://blog.csdn.net/2301_79921853?type=blogColumn](https://blog.csdn.net/2301_79921853/category_13119154.html))
+👉 [CSDN 博客专栏](https://blog.csdn.net/2301_79921853?type=blogColumn)
 
 ## 🙏 致谢
 特别感谢我的项目组组员：
